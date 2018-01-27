@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Extensions Extension",
+  "description": "This extension detects faces on a web page and adds hair extensions!",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "ExtensionIcon.png",
+    "default_popup": "popup.html",
+    "default_title": "Add hair"
+  },
+  "content_scripts": [{"js": ["jquery.min.js", "embed.js"], "matches": ["http://*/*", "https://*/*"]}],
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "web_accessible_resources": [
+    "OverlayImages/*"
+  ]
+}
