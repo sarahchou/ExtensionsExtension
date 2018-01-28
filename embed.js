@@ -1,7 +1,7 @@
 var images = [
-  {src: 'OverlayImages/mustache.png', target: 'upperLipTop', scale: 1, valid: function(face) { return face.faceAttributes.facialHair.moustache < 0.5 }},
-  {'src': 'OverlayImages/redheadhair.png', target: 'headTop', 'scale': 3.3},
-  {'src': 'OverlayImages/brown.png', target: 'headTop', 'scale': 3.3},
+  {src: 'OverlayImages/mustache.png', name: 'mustache', target: 'upperLipTop', scale: 1, valid: function(face) { return face.faceAttributes.facialHair.moustache < 0.5 }},
+  {src: 'OverlayImages/redheadhair.png', name: 'red hair', target: 'headTop', scale: 3.3},
+  {src: 'OverlayImages/brown.png', name: 'brown hair', target: 'headTop', scale: 3.3},
 ]
 
 function resizeImageWithAspectRatio(img, maxWidth, maxHeight) {
