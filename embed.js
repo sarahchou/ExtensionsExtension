@@ -72,7 +72,7 @@ function isFace(element) {
     // **********************************************
 
     // Replace the subscriptionKey string value with your valid subscription key.
-    var subscriptionKey = "133a82601995433daf6d35cf681bf256";
+    var subscriptionKey = "f037157f6f964e01bc7e3ec5a4e40988";
 
     // Replace or verify the region.
     //
